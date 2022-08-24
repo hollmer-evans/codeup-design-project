@@ -1,0 +1,27 @@
+* {
+    font-family: abel regular;
+}
+.big-font {
+    font-family: Anton;
+}
+.red {
+    color: #E6563B;
+}
+.orange {
+    color: #EB9D3A;
+}
+.green {
+    color: #7CB06C;
+}
+.blue {
+    color: #00ABA9;
+}
+.white {
+    color: #F0F0F0;
+}
+.grey {
+    color: #E6E6E6;
+}
+.red-design-button {
+    display: flex
+}
