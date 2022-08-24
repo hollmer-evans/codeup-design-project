@@ -11,5 +11,12 @@ h1, h2, h3 {
     font-family: "Anton", sans-serif;
 }
 
-h1 {    font-size: 3.5em;
+h1 {
+    font-size: 3.5em;
+}
+
+.placeholder {
+    height: 108px;
+    width: 108px;
+    background-color: #7CB06C;
 }
