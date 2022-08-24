@@ -157,3 +157,34 @@ body {
     height: 1.5em;
 }
 
+.right-side-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.picture-and-paragraph-container {
+    width: 100%;
+    display: flex;
+    margin: 0 0 1em 0;
+}
+
+.picture-container {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+    padding: 0.2em;
+}
+.picture-container img {
+    width: 100%;
+}
+
+.paragraph-container {
+    width: 70%;
+    height: 80%;
+    margin-left: 1em;
+}
+
