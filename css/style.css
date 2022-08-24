@@ -6,3 +6,10 @@ body * {
     width: 50px;
     margin-right: 1em;
 }
+
+h1, h2, h3 {
+    font-family: "Anton", sans-serif;
+}
+
+h1 {    font-size: 3.5em;
+}
