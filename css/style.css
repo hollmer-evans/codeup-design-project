@@ -7,6 +7,8 @@
     --dark-gray: #E6E6E6;
 }
 
+
+/*      Document Setup      */
 body {
     background-color: var(--light-gray);
 }
@@ -15,12 +17,14 @@ body * {
     font-family: "Abel", sans-serif;
 }
 
+
+/*      Navigation Bar      */
 .navbar-logo {
     width: 25px;
     margin-right: 1em;
 }
 
-h1, h2, h3, .placeholder {
+h1, h2, h3 {
     font-family: "Anton", sans-serif;
 }
 
@@ -28,12 +32,52 @@ h1 {
     font-size: 3.5em;
 }
 
-.placeholder {
-    box-sizing: border-box;
-    color: white;
-    height: 105px;
-    width: 105px;
-    background-color: #7CB06C;
-    border: 15px solid white;
-    border-radius: 100%;
+
+/*      Circles!     */
+.circles * {
+    margin: 0.5em;
+    border: 5px solid white;
+    font-family: "Anton", sans-serif;
 }
+
+.red-design-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6563B;
+    border-radius: 5em;
+    width: 5em;
+    height: 5em;
+    color: white;
+}
+.orange-develop-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB9D3A;
+    border-radius: 5em;
+    width: 5em;
+    height: 5em;
+    color: white;
+}
+.green-support-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7CB06C;
+    border-radius: 5em;
+    width: 5em;
+    height: 5em;
+    color: white;
+}
+.blue-host-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00ABA9;
+    border-radius: 5em;
+    width: 5em;
+    height: 5em;
+    color: white;
+}
+
